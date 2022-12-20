@@ -21,7 +21,50 @@
         <br />
         You <em>know</em> you want to.
       </div>
-      <form action="https://httpbin.org/post" method="post"></form>
+      <form action="https://httpbin.org/post" method="post">
+        <fieldset class="inputs">
+          <legend>Let's do this!</legend>
+          <div class="inputgrid">
+            <div class="inputelements">
+              <label for="firstname">FIRST NAME</label>
+              <input type="text" id="firstname" name="user_firstname" />
+            </div>
+
+            <div class="inputelements">
+              <label for="lastname">LAST NAME</label>
+              <input type="text" id="lastname" name="user_lastname" />
+            </div>
+
+            <div class="inputelements">
+              <label for="email">EMAIL</label>
+              <input type="text" id="email" name="user_email" />
+            </div>
+
+            <div class="inputelements">
+              <label for="phonenumber">PHONE NUMBER</label>
+              <input type="text" id="phonenumber" name="user_phonenumber" />
+            </div>
+
+            <div class="inputelements">
+              <label for="password">PASSWORD</label>
+              <input type="text" id="password" name="user_password" />
+            </div>
+
+            <div class="inputelements">
+              <label for="confirmpassword">CONFIRM PASSWORD</label>
+              <input
+                type="text"
+                id="confirmpassword"
+                name="user_confirmpassword"
+              />
+            </div>
+          </div>
+        </fieldset>
+        <button type="submit">Create Account</button>
+      </form>
+      <div class="login">
+        <p>Already have an account? <a href="">Log in</a></p>
+      </div>
     </div>
   </body>
 </html>
