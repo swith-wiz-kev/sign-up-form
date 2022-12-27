@@ -256,7 +256,8 @@ body {
 }
 
 .inputelements > p {
-  padding-top: 5px;
+  padding-top: 7px;
+  font-size: 0.85rem;
   visibility: hidden;
 }
 
