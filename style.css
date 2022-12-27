@@ -243,6 +243,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.75rem;
   width: 85%;
+  border-radius: 5px;
+}
+
+.inputelements > input:focus {
+  box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.284);
+  border: 2px solid blue;
+}
+
+.inputelements > input:invalid {
+  border: 2px solid red;
+}
+
+.inputelements > p {
+  padding-top: 5px;
+  visibility: hidden;
+}
+
+.inputelements > p.error-message {
+  padding-top: 7px;
+  color: red;
+  font-size: 0.85rem;
+  visibility: visible;
 }
 
 form > button {
