@@ -3,7 +3,11 @@ const passwordFieldConfirm = document.querySelector("#confirmpassword");
 const errorMessage = document.querySelector("p.error-message");
 function isPasswordMatch() {
   if (passwordField.value === passwordFieldConfirm.value) {
-    return true;
+    if (passwordField.value === "") {
+      return false;
+    } else {
+      return true;
+    }
   } else {
     return false;
   }
